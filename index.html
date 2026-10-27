@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YOUR SAVIOR TUSHI IS HERE | Kashfi Haider Tushi</title>
+  <meta name="description" content="Official tribute and portfolio website for Kashfi Haider Tushi — Future Pharmacist, Healthcare Savior, and student from Chittagong, Bangladesh.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Sparkles & Hearts Canvas Background -->
+  <canvas id="sparkleCanvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-pill">💊</span>
+        <div class="logo-text">
+          <span class="logo-name">TUSHI</span>
+          <span class="logo-sub">YOUR SAVIOR</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-item"><i class="fa-solid fa-user-astronaut"></i> About</a>
+        <a href="#journey" class="nav-item"><i class="fa-solid fa-graduation-cap"></i> Journey</a>
+        <a href="#savior" class="nav-item"><i class="fa-solid fa-heart-pulse"></i> Savior Mission</a>
+        <a href="#gallery" class="nav-item"><i class="fa-solid fa-camera-retro"></i> Gallery</a>
+        <a href="#socials" class="nav-item"><i class="fa-solid fa-paper-plane"></i> Connect</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="sparkleToggle" class="icon-btn" title="Toggle Sparkles" aria-label="Toggle Sparkles">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </button>
+        <button id="menuToggle" class="menu-btn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <span class="drawer-title">Navigation</span>
+      <button id="closeDrawer" class="close-btn" aria-label="Close menu">&times;</button>
+    </div>
+    <div class="drawer-links">
+      <a href="#hero" class="drawer-item"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="#about" class="drawer-item"><i class="fa-solid fa-user-astronaut"></i> About Her</a>
+      <a href="#journey" class="drawer-item"><i class="fa-solid fa-graduation-cap"></i> Academic Journey</a>
+      <a href="#savior" class="drawer-item"><i class="fa-solid fa-heart-pulse"></i> Savior & Pharmacy</a>
+      <a href="#gallery" class="drawer-item"><i class="fa-solid fa-camera-retro"></i> Photo Gallery (7)</a>
+      <a href="#socials" class="drawer-item"><i class="fa-solid fa-paper-plane"></i> Social Links</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+      <div class="glow-orb orb-3"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-savior">
+            <span class="pulse-dot"></span>
+            <span>OFFICIAL PROFILE • HEALTHCARE SAVIOR</span>
+          </div>
+
+          <h1 class="hero-title">
+            YOUR SAVIOR <br>
+            <span class="gradient-text">TUSHI</span> IS HERE
+          </h1>
+
+          <p class="hero-subtitle">
+            Meet <strong>Kashfi Haider Tushi</strong> — student, intern graduate, and future pharmacist on a mission to bring healing, care, and smiles to the world.
+          </p>
+
+          <div class="hero-tags">
+            <span class="tag"><i class="fa-solid fa-capsules"></i> Future Pharmacist</span>
+            <span class="tag"><i class="fa-solid fa-location-dot"></i> Chittagong, BD</span>
+            <span class="tag"><i class="fa-solid fa-cake-candles"></i> March 11, 2008</span>
+            <span class="tag"><i class="fa-solid fa-certificate"></i> Intern Completed</span>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#journey" class="btn btn-primary">
+              <span>Explore Her Journey</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#savior" class="btn btn-secondary">
+              <i class="fa-solid fa-prescription-bottle-medical"></i>
+              <span>Get Daily Rx Dose</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-wrapper">
+            <div class="hero-card glass-panel">
+              <div class="card-inner-image">
+                <img src="assets/images/tushi_photo_2.jpg" alt="Kashfi Haider Tushi - Kuromi Heart Frame" class="hero-img">
+                <div class="hero-overlay-tag">
+                  <span class="icon">🖤</span>
+                  <span>Kuromi Vibe • Savior Tushi</span>
+                </div>
+              </div>
+              <div class="card-info-badge">
+                <div class="card-avatar-mini">
+                  <img src="assets/images/tushi_photo_3.jpg" alt="Mini Avatar">
+                </div>
+                <div class="card-meta">
+                  <h4>Kashfi Haider Tushi</h4>
+                  <p>Admission Candidate • Pharmacy Aspirant</p>
+                </div>
+                <span class="status-indicator">Active</span>
+              </div>
+            </div>
+
+            <!-- Floating Badges around hero image -->
+            <div class="floating-badge badge-top-right floating-slow">
+              <i class="fa-solid fa-mortar-pestle"></i>
+              <span>Rx Future Pharmacist</span>
+            </div>
+            <div class="floating-badge badge-bottom-left floating-fast">
+              <i class="fa-solid fa-heart"></i>
+              <span>Your Savior</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE VITAL STATS & AGE COUNTER SECTION -->
+    <section class="stats-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-chart-pie"></i> LIVE VITALS & BIOGRAPHY</span>
+          <h2 class="section-title">Who Is <span class="gradient-text">Tushi</span>?</h2>
+          <p class="section-desc">Real-time age telemetry, birthplace, and essential bio details</p>
+        </div>
+
+        <div class="stats-grid">
+          <!-- Real-Time Dynamic Age Card -->
+          <div class="stat-card glass-panel age-hero-card">
+            <div class="stat-header">
+              <div class="stat-icon-wrap icon-purple">
+                <i class="fa-solid fa-hourglass-half"></i>
+              </div>
+              <div>
+                <span class="stat-subtitle">REAL-TIME AGE TELEMETRY</span>
+                <h3 class="stat-title">Current Age Counter</h3>
+              </div>
+            </div>
+            <div class="age-display" id="ageDisplay">
+              <div class="age-unit">
+                <span class="age-number" id="ageYears">--</span>
+                <span class="age-label">Years</span>
+              </div>
+              <div class="age-separator">:</div>
+              <div class="age-unit">
+                <span class="age-number" id="ageMonths">--</span>
+                <span class="age-label">Months</span>
+              </div>
+              <div class="age-separator">:</div>
+              <div class="age-unit">
+                <span class="age-number" id="ageDays">--</span>
+                <span class="age-label">Days</span>
+              </div>
+              <div class="age-separator">:</div>
+              <div class="age-unit">
+                <span class="age-number" id="ageHours">--</span>
+                <span class="age-label">Hours</span>
+              </div>
+              <div class="age-separator">:</div>
+              <div class="age-unit">
+                <span class="age-number" id="ageSeconds">--</span>
+                <span class="age-label">Seconds</span>
+              </div>
+            </div>
+            <div class="stat-footer-text">
+              <i class="fa-regular fa-clock"></i> Born on <strong>March 11, 2008</strong> • Updated every single second!
+            </div>
+          </div>
+
+          <!-- Birthday Countdown Card -->
+          <div class="stat-card glass-panel">
+            <div class="stat-header">
+              <div class="stat-icon-wrap icon-pink">
+                <i class="fa-solid fa-cake-candles"></i>
+              </div>
+              <div>
+                <span class="stat-subtitle">NEXT CELEBRATION</span>
+                <h3 class="stat-title">Birthday Countdown</h3>
+              </div>
+            </div>
+            <div class="countdown-display" id="bdayCountdown">
+              <div class="countdown-box">
+                <span id="bdayDays" class="cd-num">--</span>
+                <span class="cd-lbl">Days</span>
+              </div>
+              <div class="countdown-box">
+                <span id="bdayHours" class="cd-num">--</span>
+                <span class="cd-lbl">Hours</span>
+              </div>
+              <div class="countdown-box">
+                <span id="bdayMinutes" class="cd-num">--</span>
+                <span class="cd-lbl">Mins</span>
+              </div>
+              <div class="countdown-box">
+                <span id="bdaySeconds" class="cd-num">--</span>
+                <span class="cd-lbl">Secs</span>
+              </div>
+            </div>
+            <div class="stat-footer-text">
+              <i class="fa-solid fa-gift"></i> Mark your calendars for <strong>March 11th</strong>!
+            </div>
+          </div>
+
+          <!-- Hometown & Origin Card -->
+          <div class="stat-card glass-panel">
+            <div class="stat-header">
+              <div class="stat-icon-wrap icon-cyan">
+                <i class="fa-solid fa-earth-asia"></i>
+              </div>
+              <div>
+                <span class="stat-subtitle">ORIGIN & LOCATION</span>
+                <h3 class="stat-title">Hometown</h3>
+              </div>
+            </div>
+            <div class="location-body">
+              <div class="location-name">
+                <span class="city">Chittagong</span>
+                <span class="country">Bangladesh 🇧🇩</span>
+              </div>
+              <p class="location-description">
+                The beautiful port city of green hills, serene seaside, and vibrant culture where Tushi was born, raised, and educated.
+              </p>
+              <a href="https://www.facebook.com/Chittagong-111454328869871/" target="_blank" rel="noopener noreferrer" class="link-badge">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Explore Chittagong Page</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Full Identity Card -->
+          <div class="stat-card glass-panel">
+            <div class="stat-header">
+              <div class="stat-icon-wrap icon-emerald">
+                <i class="fa-solid fa-id-card"></i>
+              </div>
+              <div>
+                <span class="stat-subtitle">IDENTITY DOSSIER</span>
+                <h3 class="stat-title">Personal Record</h3>
+              </div>
+            </div>
+            <ul class="dossier-list">
+              <li>
+                <span class="d-key"><i class="fa-solid fa-signature"></i> Full Name:</span>
+                <span class="d-val">Kashfi Haider Tushi</span>
+              </li>
+              <li>
+                <span class="d-key"><i class="fa-solid fa-star"></i> Nickname:</span>
+                <span class="d-val">Tushi / Savior Tushi</span>
+              </li>
+              <li>
+                <span class="d-key"><i class="fa-solid fa-calendar-day"></i> Date of Birth:</span>
+                <span class="d-val">March 11, 2008</span>
+              </li>
+              <li>
+                <span class="d-key"><i class="fa-solid fa-bullseye"></i> Current Goal:</span>
+                <span class="d-val badge-accent">Admission Candidate</span>
+              </li>
+              <li>
+                <span class="d-key"><i class="fa-solid fa-heart-pulse"></i> Dream Career:</span>
+                <span class="d-val badge-medical">Pharmacist (Healthcare Hero)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMIC & MILESTONES JOURNEY SECTION -->
+    <section class="journey-section" id="journey">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-route"></i> PATH TO SUCCESS</span>
+          <h2 class="section-title">Her Academic <span class="gradient-text">Journey</span></h2>
+          <p class="section-desc">From school corridors and college campus to internship triumph and admission prep</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Step 1: High School -->
+          <div class="timeline-item timeline-left">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="timeline-card glass-panel">
+              <span class="timeline-phase">MILESTONE 01 • HIGH SCHOOL COMPLETED</span>
+              <h3 class="timeline-heading">Garib-E-Newaz High School</h3>
+              <p class="timeline-text">
+                Tushi completed her high school secondary education at <strong>Garib-E-Newaz High School</strong>, laying a rock-solid foundation in science and academic discipline.
+              </p>
+              <div class="timeline-tags">
+                <span class="t-tag"><i class="fa-solid fa-check"></i> Secondary Education Completed</span>
+                <span class="t-tag"><i class="fa-solid fa-location-dot"></i> Chittagong</span>
+              </div>
+              <a href="https://www.facebook.com/profile.php?id=100083194525550" target="_blank" rel="noopener noreferrer" class="link-badge school-link">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Garib-E-Newaz High School Profile</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Step 2: College -->
+          <div class="timeline-item timeline-right">
+            <div class="timeline-dot dot-purple">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="timeline-card glass-panel">
+              <span class="timeline-phase">MILESTONE 02 • HIGHER SECONDARY (COLLEGE)</span>
+              <h3 class="timeline-heading">Govt. Hazi Muhammad Mohsin College</h3>
+              <p class="timeline-text">
+                She completed her college education from the prestigious and historic <strong>Govt. Hazi Muhammad Mohsin College</strong> in Chittagong, mastering advanced science courses and building her leadership skills.
+              </p>
+              <div class="timeline-tags">
+                <span class="t-tag"><i class="fa-solid fa-check"></i> College Completed</span>
+                <span class="t-tag"><i class="fa-solid fa-award"></i> Premier Institution</span>
+              </div>
+              <a href="https://www.facebook.com/GovtMohsincollegectg" target="_blank" rel="noopener noreferrer" class="link-badge college-link">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Govt. Mohsin College Chittagong</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Step 3: Internship Completed -->
+          <div class="timeline-item timeline-left">
+            <div class="timeline-dot dot-emerald">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="timeline-card glass-panel">
+              <span class="timeline-phase">MILESTONE 03 • PROFESSIONAL PRACTICE</span>
+              <h3 class="timeline-heading">Internship Completed Successfully</h3>
+              <p class="timeline-text">
+                She successfully completed her practical internship, gaining hands-on exposure, working under professional standards, and discovering her deep fascination with medicines and clinical patient care.
+              </p>
+              <div class="timeline-tags">
+                <span class="t-tag"><i class="fa-solid fa-circle-check"></i> Intern Graduate</span>
+                <span class="t-tag"><i class="fa-solid fa-hands-holding-circle"></i> Practical Training</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4: Current Mission - Admission Prep -->
+          <div class="timeline-item timeline-right">
+            <div class="timeline-dot dot-gold pulse-gold">
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <div class="timeline-card glass-panel current-target-card">
+              <div class="status-chip"><i class="fa-solid fa-fire"></i> IN ACTIVE PROGRESS</div>
+              <span class="timeline-phase">MILESTONE 04 • THE NEXT CHAPTER</span>
+              <h3 class="timeline-heading">University Admission Preparation</h3>
+              <p class="timeline-text">
+                Currently dedicating her full energy to admission preparation! Solving practice papers, revising biological sciences and chemistry, aiming for top university admission into <strong>Pharmacy / Pharmaceutical Sciences</strong>.
+              </p>
+              <div class="timeline-tags">
+                <span class="t-tag accent"><i class="fa-solid fa-brain"></i> Admission Candidate</span>
+                <span class="t-tag accent"><i class="fa-solid fa-flask-vial"></i> Pharmacy Dream</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAVIOR & PHARMACY MISSION SECTION -->
+    <section class="savior-section" id="savior">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-prescription-bottle-medical"></i> THE PHARMACY CALLING</span>
+          <h2 class="section-title">Why Is Tushi <span class="gradient-text">Your Savior</span>?</h2>
+          <p class="section-desc">Pharmacists are the bridge between science and life — doctors diagnose, but pharmacists heal!</p>
+        </div>
+
+        <div class="savior-grid">
+          <!-- Pillar 1 -->
+          <div class="savior-card glass-panel">
+            <div class="savior-icon-box">
+              <i class="fa-solid fa-flask-round-potion"></i>
+            </div>
+            <h3>Master of Medicine</h3>
+            <p>
+              While doctors examine and diagnose, pharmacists unlock the precise chemical cures, doses, and formulations that bring people back to health and vitality.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="savior-card glass-panel">
+            <div class="savior-icon-box icon-pink">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3>Compassionate Care</h3>
+            <p>
+              True healing comes with empathy. Tushi blends sharp intellect with warmth and kindness — ensuring every patient receives not just treatment, but genuine comfort.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="savior-card glass-panel">
+            <div class="savior-icon-box icon-cyan">
+              <i class="fa-solid fa-shield-heart"></i>
+            </div>
+            <h3>Guardian of Wellness</h3>
+            <p>
+              Preventing bad drug reactions, discovering therapies, and saving lives every day. That is why she is and always will be: <strong>YOUR SAVIOR TUSHI</strong>!
+            </p>
+          </div>
+        </div>
+
+        <!-- Interactive Prescription Dispenser -->
+        <div class="prescription-box glass-panel">
+          <div class="rx-header">
+            <div class="rx-badge"><i class="fa-solid fa-prescription"></i> Rx DISPENSER</div>
+            <h3 class="rx-title">Tushi's Daily Dose of Positivity</h3>
+            <p class="rx-subtitle">Need motivation or a smile? Tap the button below to dispense an exclusive prescription capsule from Savior Tushi!</p>
+          </div>
+
+          <div class="rx-dispenser-area">
+            <div class="capsule-visual" id="capsuleGraphic">
+              <div class="capsule-half half-pink"><span>💊</span></div>
+              <div class="capsule-half half-white"><span>Rx</span></div>
+            </div>
+            
+            <div class="prescription-ticket" id="rxTicket">
+              <div class="rx-stamp">CERTIFIED SAVIOR</div>
+              <h4 id="rxTitle">Prescription #001: Pure Ambition</h4>
+              <p id="rxBody">"Study hard, stay kind, and remember: every great dream begins with one determined step. You've got this!"</p>
+              <div class="rx-doctor-sign">
+                <span>Prescribed by:</span>
+                <strong>Dr. Kashfi Haider Tushi, Future Pharmacist 🩺</strong>
+              </div>
+            </div>
+
+            <button id="dispenseBtn" class="btn btn-primary rx-btn">
+              <i class="fa-solid fa-dice"></i>
+              <span>Dispense New Prescription</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY SECTION (ALL 7 PHOTOS) -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-images"></i> VISUAL ARCHIVE</span>
+          <h2 class="section-title">The <span class="gradient-text">Tushi</span> Collection</h2>
+          <p class="section-desc">Explore all 7 unique portraits from her collage — tap any photo to open full-screen view</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Photo 1 -->
+          <div class="gallery-item item-tall" data-index="0">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_1.jpg" alt="Kashfi Haider Tushi with hair clip and glasses in crimson attire" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini"><i class="fa-solid fa-gem"></i> Portrait 01</span>
+                <h4>Crimson Elegance</h4>
+                <p>Gentle gaze, stylish glasses, and pink hairclip</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 2 -->
+          <div class="gallery-item item-tall" data-index="1">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_2.jpg" alt="Kashfi Haider Tushi in Kuromi heart chain frame" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini badge-kuromi"><i class="fa-solid fa-heart"></i> Portrait 02</span>
+                <h4>Kuromi Heart Chain</h4>
+                <p>Framed by chain hearts & iconic Kuromi aesthetic</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 3 -->
+          <div class="gallery-item item-square" data-index="2">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_3.jpg" alt="Kashfi Haider Tushi with black butterfly eye filter" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini"><i class="fa-solid fa-feather"></i> Portrait 03</span>
+                <h4>Black Butterfly Mask</h4>
+                <p>Mysterious and artistic butterfly filter flair</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 4 -->
+          <div class="gallery-item item-square" data-index="3">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_4.jpg" alt="Kashfi Haider Tushi head tilt with round glasses" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini"><i class="fa-solid fa-glasses"></i> Portrait 04</span>
+                <h4>Round Frame Chic</h4>
+                <p>Head-tilt pose with round aesthetic glasses</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 5 -->
+          <div class="gallery-item item-tall" data-index="4">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_5.jpg" alt="Kashfi Haider Tushi retro aesthetic with Japanese kaomoji" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini badge-retro"><i class="fa-solid fa-tv"></i> Portrait 05</span>
+                <h4>Retro Scanline & Kaomoji</h4>
+                <p>VHS aesthetic overlay with cute ( ´ ▽ ` ) vibes</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 6 -->
+          <div class="gallery-item item-tall" data-index="5">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_6.jpg" alt="Kashfi Haider Tushi aesthetic wall with floating mini hearts" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini"><i class="fa-solid fa-cloud"></i> Portrait 06</span>
+                <h4>Floating Heart Wall</h4>
+                <p>Dreamy eyes looking up beneath miniature hearts</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 7 -->
+          <div class="gallery-item item-square" data-index="6">
+            <div class="gallery-card">
+              <img src="assets/images/tushi_photo_7.jpg" alt="Kashfi Haider Tushi inside lavender pearl beaded heart balloon frame" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="badge-mini badge-pearl"><i class="fa-solid fa-circle-dot"></i> Portrait 07</span>
+                <h4>Pearl Beaded Heart</h4>
+                <p>Framed inside shimmering lavender pearl balloons</p>
+                <button class="view-btn" aria-label="View photo"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL MEDIA & CONTACT HUB SECTION -->
+    <section class="socials-section" id="socials">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag"><i class="fa-solid fa-satellite-dish"></i> CONNECT WITH HER</span>
+          <h2 class="section-title">Stay In Touch With <span class="gradient-text">Tushi</span></h2>
+          <p class="section-desc">Follow her personal updates, admission milestones, and everyday adventures</p>
+        </div>
+
+        <div class="socials-grid">
+          <!-- Facebook Profile -->
+          <div class="social-card glass-panel fb-card">
+            <div class="social-card-top">
+              <div class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <span class="social-tag-badge">Official Profile</span>
+            </div>
+            <div class="social-body">
+              <h3>Facebook Profile</h3>
+              <p class="handle">@Eshaaalll</p>
+              <p class="social-bio">Connect with Kashfi on Facebook for life updates, memories, and personal milestones.</p>
+            </div>
+            <div class="social-actions">
+              <a href="https://www.facebook.com/Eshaaalll" target="_blank" rel="noopener noreferrer" class="btn btn-social btn-fb">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Open Facebook</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <button class="btn btn-copy" data-copy="https://www.facebook.com/Eshaaalll" title="Copy Link">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Instagram Profile -->
+          <div class="social-card glass-panel insta-card">
+            <div class="social-card-top">
+              <div class="social-icon icon-insta">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <span class="social-tag-badge badge-insta">Official Instagram</span>
+            </div>
+            <div class="social-body">
+              <h3>Instagram Profile</h3>
+              <p class="handle">@kashfi_haider_tushi</p>
+              <p class="social-bio">Explore her photo aesthetics, stories, stylish snapshots, and everyday moments.</p>
+            </div>
+            <div class="social-actions">
+              <a href="https://www.instagram.com/kashfi_haider_tushi/" target="_blank" rel="noopener noreferrer" class="btn btn-social btn-insta">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Open Instagram</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <button class="btn btn-copy" data-copy="https://www.instagram.com/kashfi_haider_tushi/" title="Copy Link">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Summary Banner -->
+        <div class="summary-banner glass-panel">
+          <div class="summary-content">
+            <div class="summary-icon">💊</div>
+            <div>
+              <h3>YOUR SAVIOR TUSHI IS HERE</h3>
+              <p>Future Pharmacist • Garib-E-Newaz High School • Govt. Hazi Muhammad Mohsin College • Chittagong, Bangladesh</p>
+            </div>
+          </div>
+          <button class="btn btn-primary share-site-btn" id="shareSiteBtn">
+            <i class="fa-solid fa-share-nodes"></i>
+            <span>Share Website</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX MODAL FOR FULLSCREEN GALLERY -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-container">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">&times;</button>
+      
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="lightbox-content">
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="Full view" id="lightboxImg">
+        </div>
+        <div class="lightbox-caption">
+          <div class="lb-meta">
+            <span id="lightboxBadge" class="badge-mini">Photo</span>
+            <span id="lightboxCounter" class="lb-counter">1 / 7</span>
+          </div>
+          <h3 id="lightboxTitle">Photo Title</h3>
+          <p id="lightboxDesc">Photo description</p>
+        </div>
+      </div>
+
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Link copied to clipboard!</span>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="pill-badge">💊 YOUR SAVIOR</span>
+          <h2>Kashfi Haider Tushi</h2>
+          <p>Dedicated to celebrating her journey, her achievements, and her dream of becoming a life-saving pharmacist.</p>
+        </div>
+        <div class="footer-links-group">
+          <h4>Navigation</h4>
+          <a href="#hero">Home</a>
+          <a href="#about">Vitals & Age</a>
+          <a href="#journey">Journey</a>
+          <a href="#savior">Savior Mission</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <div class="footer-links-group">
+          <h4>Official Socials</h4>
+          <a href="https://www.facebook.com/Eshaaalll" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="https://www.instagram.com/kashfi_haider_tushi/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a href="https://www.facebook.com/GovtMohsincollegectg" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-building-columns"></i> Mohsin College</a>
+          <a href="https://www.facebook.com/Chittagong-111454328869871/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i> Chittagong</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> <strong>Your Savior Tushi Is Here</strong>. Crafted with admiration & respect.</p>
+        <p class="tagline">Born March 11, 2008 • Chittagong, Bangladesh</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
